@@ -1,0 +1,20 @@
+-------------MEJIA CORTEZ LIZBETH GISSELLE--------------
+RESPUESTAS AL RETO NUMERO 2 obtenidas del analisis del archivo proporcionado:
+
+2. Obtener el número de respuestas contestadas y no contestadas
+En el archivo JSON hay: 25 respuestas contestadas  y 5 No contestadas
+
+3. Obtener la respuesta con menor número de vistas
+La respuesta con menor número de vistas tiene el id :  70191009, con un total de: 32 vistas, title: Replace all matches EXCEPT first match in multiple files with perl
+
+4. Obtener la respuesta más vieja y más actual
+La respuesta más vieja tiene el id: 7651
+con una fecha de creación de : 1218449072
+id de usuario:381
+
+Y la más actual:id: 70247252
+Fecha de creación : 1638801653
+id de usuario: 7186557
+
+5. Obtener la respuesta con  owner de mayor reputación
+La respuesta con owner de  mayor reputación es de 13899 puntos, id de usuario: 381 de nombre:David

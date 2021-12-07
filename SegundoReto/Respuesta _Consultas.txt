@@ -1,0 +1,20 @@
+-------------MEJIA CORTEZ LIZBETH GISSELLE--------------
+Se requiere saber lo siguiente
+
+1. ¿Cuál es el nombre aeropuerto que ha tenido mayor movimiento durante el año?
+Los aeropuertos con mayor movimiento durante el año son:
+Benito Juarez
+La paz
+Ya que ambos tienen 3 movimientos
+
+2. ¿Cuál es el nombre aerolínea que ha realizado mayor número de vuelos durante el
+año?Las aerolineas que ha realizado el mayor numero de vuelos durante el año son 
+Aeromar
+Interjet
+Ya que ambas tienen 3 vuelos
+
+3. ¿En qué día se han tenido mayor número de vuelos?
+En el día 2021-05-02 se han tenido mayor numero de vuelos
+
+4. ¿Cuáles son las aerolíneas que tienen mas de 2 vuelos por día?
+Realice la consulta necesaria para obtener esta información tambien hice las pruebas necesarias para validar el funcionamiento correcto sin embargo la respuesta a la pregunta 4 es ningun aerolinea pors todas tienen máximo 2 vuelos por día, ninguna más de dos.
