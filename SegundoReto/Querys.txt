@@ -1,0 +1,35 @@
+/*1. ¿Cuál es el nombre aeropuerto que ha tenido mayor movimiento durante el año? */
+
+select nombre_aeropuerto 
+from (select nombre_aeropuerto, count(id_aeropuerto)  contador
+	 from vuelos natural join aeropuertos 
+	 group by id_aeropuerto) AS T1
+where contador in (select max(contador)
+		from (select id_aeropuerto,count(id_aeropuerto) contador 			
+        from vuelos natural join aeropuertos
+			group by id_aeropuerto) AS T2);
+
+/*2. ¿Cuál es el nombre aerolínea que ha realizado mayor número de vuelos durante el año?*/
+
+select nombre_aerolinea 
+from (select nombre_aerolinea, count(id_aerolinea) contador
+	 from vuelos natural join aerolineas 
+	 group by id_aerolinea) AS T1
+where contador in (select max(contador)
+		from (select id_aerolinea,count(id_aerolinea) contador 			
+        from vuelos natural join aerolineas
+			group by id_aerolinea) AS T2);
+            
+/*3. ¿En qué día se han tenido mayor número de vuelos?*/
+
+select dia from (select dia,count(dia) contador
+from vuelos group by dia) AS T1
+ where contador in (select max(contador) from 
+(select dia, count(dia) contador from vuelos group by dia) AS T2);
+
+/*4. ¿Cuáles son las aerolíneas que tienen mas de 2 vuelos por día? */
+
+Select nombre_aerolinea From vuelos natural join aerolineas Group By nombre_aerolinea, dia 
+Having count(*) > 2;
+
+/*NOTA:La consulta nùmero 4 no arroja ningun resultado dado que por los datos proporcionados por el reto,no existe ningun aerolinea que realice más de dos vuelos por día por tanto la consulta arroja cero resultados*/
