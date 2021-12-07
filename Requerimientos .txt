@@ -1,0 +1,3 @@
+Requerimientos 
+Google Colab utilizando un kernel con Python 3 para el desarrollo del análisis de datos.
+Gestor de base de datos MySQL  version 8.0,para la ejecución de los querys.
